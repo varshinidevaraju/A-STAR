@@ -97,8 +97,8 @@ while len(open_set) > 0:
         print('Path does not exist!')
         return None
         
-# if the current node is the stop_node
-# then we begin reconstructin the path from it to the start_node
+ ##if the current node is the stop_node
+ ##then we begin reconstructin the path from it to the start_node
 
     if n == stop_node:
         path = []
@@ -115,6 +115,7 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
+
 ``````
 <hr>
 <h2>Sample Graph I</h2>
