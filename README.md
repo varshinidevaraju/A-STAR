@@ -1,6 +1,6 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name:D.Varshini       </h3>
-<h3>Register Number: 212223230234   </h3>
+<h3>Name:Varshini.D      </h3>
+<h3>Register Number:  212223230234         </h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -49,8 +49,8 @@
     end (while loop)
 
 ``````
-<H3>Program:</H3>
-``````
+## PROGRAM:
+```
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -97,8 +97,8 @@ while len(open_set) > 0:
         print('Path does not exist!')
         return None
         
- ##if the current node is the stop_node
- ##then we begin reconstructin the path from it to the start_node
+# if the current node is the stop_node
+# then we begin reconstructin the path from it to the start_node
 
     if n == stop_node:
         path = []
@@ -115,8 +115,8 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
+```
 
-``````
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
@@ -156,8 +156,8 @@ J 0 <br>
 <hr>
 Path found: ['A', 'F', 'G', 'I', 'J']
 
-<h3>Program:</h3>
-``````
+## PROGRAM:
+```
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
@@ -194,7 +194,8 @@ print(H_dist)
 Graph_nodes=graph
 print(graph)
 aStarAlgo('S', 'G')
-``````
+```
+
 <hr>
 <h2>Sample Graph II</h2>
 <hr>
@@ -222,5 +223,6 @@ G 0 <br>
 <h2>Sample Output</h2>
 <hr>
 Path found: ['A', 'E', 'D', 'G']
-<h2>Result:</h2>
-<p>Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.</p>
+
+## RESULT:
+ Implementing A * Search algorithm for a Graph using Python 3. is executed successfully.
